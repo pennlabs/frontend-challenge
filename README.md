@@ -1,68 +1,106 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Penn Labs Frontend Challenge
 
-## Available Scripts
+The frontend challenge for this semester is to build a product called Penn Course Cart in React! The goal of this challenge is for you to demonstrate:
 
-In the project directory, you can run:
+1. An eye for building intuitive, feature-rich user interfaces
+2. Ability to build products with minimal direction
+3. Ability to work within a set timeline
 
-### `npm start`
+More concretely, you will build an interface where users can explore computer science courses added at Penn, can add them to a cart, and checkout.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+--------------------
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Getting started
 
-### `npm test`
+* Fork this repository to your own GitHub account
+* Clone the repository to your own computer
+* `cd` into the cloned directory and run either `yarn` or `npm install`
+* Run `yarn start` or `npm run dev`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+--------------------
 
-### `npm run build`
+### General structure
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+public/
+  index.html           Root HTML file for each page
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+src/                   Where the JS logic is
+  components/          Contains all React components
+    Cart.js            Basic component for the course cart
+    Courses.js         Basic component for rendering courses
+    Nav.js             Basic component for the navbar
+    ...                Feel free to add other components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  data/                Contains data rendered by the components
+    courses.json       Contains information on CIS courses at Penn
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  App.css              CSS for the app
+  App.js               Root component for the app
+  index.js             Renders the React app
+  ...
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+--------------------
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Features
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. __Explore courses__
+  * If you view `src/components/Courses.js`, you'll see that it is rendering *some* of the courses data from `src/data/courses.json`
+  * What you need to do is design a more robust way to display this courses information. You should display all information contained in the JSON--though put some thought into how to go about doing this.
+    * For example, you might only want to show the description once the user clicks on the course.
 
-## Learn More
+2. __Add courses to your cart__
+  * A user should be able to add a subset of these courses to their cart.
+    * The user should not be able to add more than 7 courses to their cart.
+  * When a user adds a course, this addition should be reflected in:
+    1. How that cart is rendered
+    2. How that course is rendered
+      * For example, there should not still be a button to add that course to the cart, and maybe the text should be grayed out.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. __View cart and checkout__
+  * The user should be able to click a button to view their cart.
+    * If the cart has no items in it, tell the user that their cart is empty.
+    * If the cart has courses it in, display the courses and relevant information about them.
+  * When the user is satisfied with their course cart, they should be able to "checkout"
+    * This will either take the user to a new page containing (or will display on the same page) a "receipt" containing the courses which they checked out with.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. __Additional features__
+  * Feel free to add other features as well! Here are some ideas:
+    * Integrate other data (course times, when they're offered, etc.)
+      * For example, ping the Penn Labs API
 
-### Code Splitting
+```
+fetch(https://api.pennlabs.org/registrar/search?q=cis-110)
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+    * Add animations for adding and viewing courses and the cart
+    * Let users rank courses in order of preference
+    * Allow users to filter and sort courses by different metrics
 
-### Analyzing the Bundle Size
+--------------------
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Additional tips
 
-### Making a Progressive Web App
+* For styling, use whatever you want:
+  * CSS frameworks (Bulma, Bootstrap)
+  * CSS files (or SCSS)
+  * CSS-in-JS
+  * `styled-components`
+  * ...
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+* For state management:
+  * Vanilla react state and props
+  * Redux
+  * ...
 
-### Advanced Configuration
+* For navigation:
+  * React Router
+  * ...
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+--------------------
 
-### Deployment
+### Getting help
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+If you have any questions about the project or need some help, send an email to __Cameron Cabo__ (ccabo@seas.upenn.edu) or message him on [Facebook](https://www.facebook.com/cam.cabo).

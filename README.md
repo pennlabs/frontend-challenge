@@ -35,7 +35,6 @@ src/                   Where the JS logic is
   data/                Contains data rendered by the components
     courses.json       Contains information on CIS courses at Penn
 
-
   App.css              CSS for the app
   App.js               Root component for the app
   index.js             Renders the React app

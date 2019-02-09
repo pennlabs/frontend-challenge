@@ -104,3 +104,9 @@ fetch(https://api.pennlabs.org/registrar/search?q=cis-110)
 ### Getting help
 
 If you have any questions about the project or need some help, send an email to __Cameron Cabo__ (ccabo@seas.upenn.edu) or message him on [Facebook](https://www.facebook.com/cam.cabo).
+
+--------------------
+
+### Submitting
+
+Send a link to your git repository with subject "Penn Labs Frontend Challenge" to contact@pennlabs.org by 8:00 AM on Monday, February 11th.

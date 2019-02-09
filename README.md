@@ -68,13 +68,12 @@ src/                   Where the JS logic is
 
 4. __Additional features__
 
-Feel free to add other features as well! Here are some ideas:
-
-  * Add animations for adding and viewing courses and the cart
-  * Let users rank courses in order of preference
-  * Allow users to filter and sort courses by different metrics
-  * Integrate other data (course times, when they're offered, etc.)
-    * For example, ping the Penn Labs API
+  * Feel free to add other features as well! Here are some ideas:
+    * Add animations for adding and viewing courses and the cart
+    * Let users rank courses in order of preference
+    * Allow users to filter and sort courses by different metrics
+    * Integrate other data (course times, when they're offered, etc.)
+      * For example, ping the Penn Labs API
 
 ```
 fetch(https://api.pennlabs.org/registrar/search?q=cis-110)

@@ -1,4 +1,5 @@
-[{
+[
+  {
     "dept": "CIS",
     "number": 110,
     "title": "Introduction to Computer Programming (with Java, for Beginners",
@@ -14,10 +15,7 @@
     "dept": "CIS",
     "number": 121,
     "title": "Programming Languages and Techniques I",
-    "prereqs": [
-      "CIS 120",
-      "CIS 160"
-    ],
+    "prereqs": ["CIS 120", "CIS 160"],
     "description": "This is a course about Algorithms and Data Structures using the JAVA programming language. We introduce the basic concepts about complexity of an algorithm and methods on how to compute the running time of algorithms. Then, we describe data structures like stacks, queues, maps, trees, and graphs, and we construct efficient algorithms based on these representations. The course builds upon existing implementations of basic data structures in JAVA and extends them for the structures like trees, studying the performance of operations on such structures, and their efficiency when used in real-world applications. A large project introducing students to the challenges of software engineering concludes the course."
   },
 
@@ -32,7 +30,11 @@
     "number": 140,
     "title": "Introduction to Cognitive Science",
     "cross-listed": [
-      "PHIL 044", "LING 105", "PSYCH 107", "COGS 001", "PPE 140"
+      "PHIL 044",
+      "LING 105",
+      "PSYCH 107",
+      "COGS 001",
+      "PPE 140"
     ],
     "description": "How do minds work? This course surveys a wide range of answers to this question from disciplines ranging from philosophy to neuroscience. The course devotes special attention to the use of simple computational and mathematical models. Topics include perception, learning, memory, decision making, emotion and consciousness."
   },
@@ -46,37 +48,28 @@
     "dept": "CIS",
     "number": 190,
     "title": "C++ Programming",
-    "prereqs": [
-      "CIS 240"
-    ],
+    "prereqs": ["CIS 240"],
     "description": "This course will provide an introduction to programming in C++ and is intended for students who already have some exposure to programming in another language such as Java. C++ provides the programmer with a greater level of control over machine resources and are commonly used in situations where low level access or performance are important. This course will illuminate the issues associated with programming at this level and will cover issues such as explicit memory management, pointers, the compilation process and debugging. The course will involve several programming projects which will provide students with the experience they need to program effectively in these languages. This course assumes programming experience equivalent to CIS 110, CIS 120 or ESE 112 as a prerequisite."
   },
   {
     "dept": "CIS",
     "number": 191,
     "title": "Using and Understanding Unix and Linux",
-    "prereqs": [
-      "CIS 110"
-    ],
+    "prereqs": ["CIS 110"],
     "description": "Unix, in its many forms, runs much of the world's computer infrastructure, from cable modems and cell phones to the giant clusters that power Google and Amazon. This half-credit course provides a thorough introduction to Unix and Linux. Topics will range from critical basic skills such as examining and editing files, compiling programs and writing shell scripts, to higher level topics such as the architecture of Unix and its programming model.  The material learned is applicable to many classes, including CIS 240, CIS 331, CIS 341, CIS 371/372, and CIS 380."
   },
   {
     "dept": "CIS",
     "number": 192,
     "title": "Python Programming",
-    "prereqs": [
-      "CIS 120",
-      "ESE 112"
-    ],
+    "prereqs": ["CIS 120", "ESE 112"],
     "description": "Python is an elegant, concise, and powerful language that is useful for tasks large and small. Python has quickly become a popular language for getting things done efficiently in many in all domains: scripting, systems programming, research tools, and web development. This course will provide an introduction to this modern high-level language using hands-on experience through programming assignments and a collaborative final application development project."
   },
   {
     "dept": "CIS",
     "number": 193,
     "title": "C# Programming",
-    "prereqs": [
-      "CIS 110"
-    ],
+    "prereqs": ["CIS 110"],
     "description": "C# is the premier programming language for the .NET framework.  Over the last decade, the language has evolved to meet the needs of a variety of programming styles while supporting the ever-growing capabilities of the .NET runtime and libraries.  This course provides a thorough introduction to the C# language and the .NET framework, building on the skills gained in the introductory programming courses (CIS 110, CIS 120, or ESE 112).  In addition to providing the student with a solid background in C#, this course also explores topics that the .NET platform exposes such as object-oriented design, .NET runtime internals, and others based on class interest.  A series of short, weekly homework assignments reinforces the concepts introduced in class and a group-based final project of the students' design allows them to apply their C# knowledge toward a substantial problem."
   },
   {
@@ -89,18 +82,14 @@
     "dept": "CIS",
     "number": 195,
     "title": "Mobile App Developmen",
-    "prereqs": [
-      "CIS 120"
-    ],
+    "prereqs": ["CIS 120"],
     "description": "This project-oriented course is centered around application development on current mobile platforms like iOS and Android. Section 201 (iOS) will be taught in Swift, and cover iOS fundamentals such as app lifecycles, storyboarding, delegation, networking and usage of both native and external libraries. Section 202 (Android) will be taught in Java with XML and will cover Android fundamentals such as layout, app lifecycles and different APIs."
   },
   {
     "dept": "CIS",
     "number": 196,
     "title": "Ruby on Rails Web Development",
-    "prereqs": [
-      "CIS 120"
-    ],
+    "prereqs": ["CIS 120"],
     "description": "This course will teach the fundamentals of developing web applications using Ruby on Rails, a rapid-development web framework developed by 37signals. The topics covered will start with Ruby, the language that powers Rails, and include all topics required to develop and deploy production-ready web applications with Rails. During the entire course, students will be working on a project of their own choosing which will develop as they learn additional concepts. Upon completion of the course this application will be deployed and accessible to the public. Students will be encouraged to continue building their applications even after the course given support from the Philadelphia Ruby community."
   },
   {
@@ -123,39 +112,28 @@
     "dept": "CIS",
     "number": 240,
     "title": "Introduction to Computer Architectur",
-    "prereqs": [
-      "CIS 110 or equivalent experience"
-    ],
+    "prereqs": ["CIS 110 or equivalent experience"],
     "description": "You know how to program, but do you know how computers really work? How do millions of transistors come together to form a complete computing system? This bottom-up course begins with transistors and simple computer hardware structures, continues with low-level programming using primitive machine instructions, and finishes with an introduction to the C programming language. This course is a broad introduction to all aspects of computer systems architecture and serves as the foundation for subsequent computer systems courses, such as Digital Systems Organization and Design (CIS 371), Computer Operating Systems (CIS 380), and Compilers and Interpreters (CIS 341)."
   },
   {
     "dept": "CIS",
     "number": 261,
     "title": "Discrete Probability, Stochastic Processes, and Statistical Inference",
-    "prereqs": [
-      "CIS 160"
-    ],
+    "prereqs": ["CIS 160"],
     "description": "The purpose of this course is to provide a 1 CU educational experience which tightly integrates the theory and applications of discrete probability, discrete stochastic processes, and discrete statistical inference in the study of computer science.\nThe intended audience for this class is both those students who are CS majors as well as those intending to be CS majors. Specifically, it will be assumed that the students will know: Set Theory, Mathematical Induction, Number Theory, Functions, Equivalence Relations, Partial-Order Relations, Combinatorics, and Graph Theory at the level currently covered in CIS 160. This course could be taken immediately following CIS 160. Computation and Programming will play an essential role in this course. The students will be expected to use the Maple programming environment in homework exercises which will include: numerical and symbolic computations, simulations, and graphical displays."
   },
   {
     "dept": "CIS",
     "number": 262,
     "title": "Automata, Computability, and Complexity",
-    "prereqs": [
-      "CIS 160"
-    ],
+    "prereqs": ["CIS 160"],
     "description": "This course explores questions fundamental to computer science such as which problems cannot be solved by computers, can we formalize computing as a mathematical concept without relying upon the specifics of programming languages and computing platforms, and which problems can be solved efficiently. The topics include finite automata and regular languages, context-free grammars and pushdown automata, Turing machines and undecidability, tractability and NP-completeness. The course emphasizes rigorous mathematical reasoning as well as connections to practical computing problems such as text processing, parsing, XML query languages, and program verification."
   },
   {
     "dept": "CIS",
     "number": 320,
     "title": "Introduction to Algorithms",
-    "prereqs": [
-      "CIS 120",
-      "CIS 121",
-      "CIS 160",
-      "CIS 262"
-    ],
+    "prereqs": ["CIS 120", "CIS 121", "CIS 160", "CIS 262"],
     "description": "How do you optimally encode a text file? How do you find shortest paths in a map? How do you design a communication network? How do you route data in a network? What are the limits of efficient computation? This course gives a comprehensive introduction to design and analysis of algorithms, and answers along the way to these and many other interesting computational questions. You will learn about problem-solving; advanced data structures such as universal hashing and red-black trees; advanced design and analysis techniques such as dynamic programming and amortized analysis; graph algorithms such as minimum spanning trees and network flows; NP-completeness theory; and approximation algorithms."
   },
 
@@ -206,16 +184,11 @@
     "description": "This course surveys methods and algorithms used in modern operating systems. Concurrent distributed operation is emphasized. The main topics covered are as follows: process synchronization; interprocess communications; concurrent/distributed programming languages; resource allocation and deadlock; virtual memory; protection and security; distributed operation; distributed data; performance evaluation."
   },
 
-
-
   {
     "dept": "CIS",
     "number": 390,
     "title": "Robotics: Planning and Perception",
-    "prereqs": [
-      "CIS 121",
-      "MATH 240 or equivalent"
-    ],
+    "prereqs": ["CIS 121", "MATH 240 or equivalent"],
     "description": "This introductory course will present basic principles of robotics with an emphasis  to computer science aspects. Algorithms for planning and perception will be studied and implemented on actual robots. While planning is a fundamental problem in artificial intelligence and decision making, robot planning refers to finding a path from A to B in the presence of obstacles and by complying with the kinematic constraints of the robot. Perception involves the estimation of the robot’s motion and path as well as the shape of the environment from sensors. In this course, algorithms will be implemented in Python on mobile platforms on ground and in the air. No prior experience with Python is needed but we require knowledge of data structures, linear algebra, and basic probability."
   },
 
@@ -223,9 +196,7 @@
     "dept": "CIS",
     "number": 398,
     "title": "Quantum Computer and Information Science",
-    "prereqs": [
-      "PHYS 151", "MATH 240", "MATH 312/314", "CIS 160", "CIS 262"
-    ],
+    "prereqs": ["PHYS 151", "MATH 240", "MATH 312/314", "CIS 160", "CIS 262"],
     "description": "The purpose of this course is to introduce undergraduate students in computer science and engineering to quantum computers (QC) and quantum information science (QIS). This course is meant primarily for juniors and seniors in CIS. No prior knowledge of quantum mechanics (QM) is assumed."
   },
 
@@ -309,7 +280,11 @@
     "dept": "CIS",
     "number": 460,
     "title": "Interactive Computer Graphics",
-    "prereqs": ["CIS 120", "CIS 121", "CIS 240 is useful, but is not a requirement"],
+    "prereqs": [
+      "CIS 120",
+      "CIS 121",
+      "CIS 240 is useful, but is not a requirement"
+    ],
     "description": "This course focuses on programming the essential mathematical and geometric concepts underlying modern computer graphics. Using 3D interactive implementations, it covers fundamental topics such as mesh data structures, transformation sequences, rendering algorithms, and curve interpolation for animation. Students are also introduced to two programming languages widely used in the computer graphics industry: C++ and GLSL. The curriculum is heavily project-based, and culminates in a group project focused on building an interactive first-person world exploration application using the various real-time interaction and rendering algorithms learned throughout the semester."
   },
 
@@ -349,7 +324,6 @@
     "number": 497,
     "title": "Senior Project (DMD Students only)",
     "prereqs": "Senior standing or permission of instructor",
-
     "description": "The goal of this course is to provide an opportunity for seniors to define, design, and execute a project of your own choosing that demonstrates the technical skills and abilities that you have acquired during your 4 years as undergraduates. Evaluation is based on selecting an interesting topic, completing appropriate research on the state of the art in that area, communicating your objectives in writing and in presentations, accurately estimating what resources will be required to complete your chosen task, coding necessary functionality, and executing your plan."
   }
 ]

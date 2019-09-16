@@ -118,4 +118,4 @@ If you have any questions about the project or need some help, send an email to 
 
 ### Submitting
 
-Send a link to your git repository with subject "Penn Labs Frontend Challenge" to contact@pennlabs.org by 8:00 AM on Monday, February 11th.
+Submit a link to your git repository to [this form](https://airtable.com/shrqdIzlLgiRFzEWh) by 11:59pm on Monday, September 23rd.

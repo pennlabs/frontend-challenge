@@ -1,6 +1,6 @@
 # Penn Labs Frontend Challenge
 
-> > > If you have already done this challenge, there's a [section below](#repeat-applicants) specifically for you.
+> If you have already done this challenge, there's a [section below](#repeat-applicants) specifically for you.
 
 The frontend challenge for this semester is to build a product called Penn Course Cart in React! The goal of this challenge is for you to demonstrate:
 

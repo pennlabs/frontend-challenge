@@ -1,5 +1,7 @@
 # Penn Labs Frontend Challenge
 
+> > > If you have already done this challenge, there's a [section below](#repeat-applicants) specifically for you.
+
 The frontend challenge for this semester is to build a product called Penn Course Cart in React! The goal of this challenge is for you to demonstrate:
 
 1. An eye for building intuitive, feature-rich user interfaces
@@ -113,6 +115,16 @@ src/                   Where the JS logic is
 ### Getting help
 
 If you have any questions about the project or need some help, send an email to **Cameron Cabo** (ccabo@seas.upenn.edu) or message him on [Facebook](https://www.facebook.com/cam.cabo).
+
+---
+
+### Repeat applicants
+
+First off, thanks so much for your continued interest in Labs. We've accomplished a lot in the past year and have plans for more great products and features which need new developers to tackle them—so fingers crossed!
+
+At Labs we don't just build new products, we also maintain legacy code bases and year over year push out new and improved versions. [Penn Course Review](https://penncoursereview.com) and the [Common Funding Application](https://penncfa.com) are two great examples.
+
+In line with this, we want you to take your submission from when you last applied, clean up your code, and take it to the next level with new features and data. Be deliberate with your implementation decisions, architecture, and documentation such that if someone else opens your code 6 months from now they'll be able to pick up right where you left off. We're excited to see what you come up with.
 
 ---
 

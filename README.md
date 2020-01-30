@@ -14,7 +14,7 @@ More concretely, you will build an interface where users can explore computer sc
 
 ### Getting started
 
-- [Fork](https://help.github.com/en/articles/fork-a-repo) this repository to your own GitHub account
+- Copy this repository to your own GitHub account by clicking the green "use this template" button.
   - You'll have to make a GitHub account if you don't already have one :stuck_out_tongue:
 - [Clone](https://help.github.com/en/articles/cloning-a-repository) the repository you just made to your own computer:
   ```bash

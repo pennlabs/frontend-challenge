@@ -128,6 +128,5 @@ In line with this, we want you to take your submission from when you last applie
 
 ---
 
-### Submitting
-
-Submit a link to your git repository to [this form](https://airtable.com/shrqdIzlLgiRFzEWh) by 11:59pm on Monday, September 23rd.
+## Submitting
+Follow the instructions on the Technical Challenge page for submission.

@@ -14,7 +14,7 @@ More concretely, you will build an interface where users can explore computer sc
 
 ### Getting started
 
-- Copy this repository to your own GitHub account by clicking the green "use this template" button.
+- Copy this repository to your own GitHub account by clicking the green "use this template" button. Make sure you create a **private repository**
   - You'll have to make a GitHub account if you don't already have one :stuck_out_tongue:
 - [Clone](https://help.github.com/en/articles/cloning-a-repository) the repository you just made to your own computer:
   ```bash
@@ -114,7 +114,7 @@ src/                   Where the JS logic is
 
 ### Getting help
 
-If you have any questions about the project or need some help, send an email to **Cameron Cabo** (ccabo@seas.upenn.edu) or message him on [Facebook](https://www.facebook.com/cam.cabo).
+If you have any questions about the project or need some help, send an email to **Daniel Tao** (dtao@seas.upenn.edu).
 
 ---
 

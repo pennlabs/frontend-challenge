@@ -20,7 +20,7 @@ More concretely, you will build an interface where users can explore computer sc
   ```bash
   git clone git@github.com:{USERNAME}/frontend-challenge.git
   ```
-- Make sure that you [have Node installed](https://www.seas.upenn.edu/~cis197/development)
+- Make sure that you [have Node installed](https://nodejs.org/en/download/)
 - `cd` into the cloned directory and run either `yarn` or `npm install`
 - Run `yarn start` or `npm run dev`
 
@@ -114,7 +114,7 @@ src/                   Where the JS logic is
 
 ### Getting help
 
-If you have any questions about the project or need some help, send an email to **Daniel Tao** (dtao@seas.upenn.edu).
+If you have any questions about the project or need some help, send an email to contact@pennlabs.org.
 
 ---
 
@@ -124,7 +124,7 @@ First off, thanks so much for your continued interest in Labs. We've accomplishe
 
 At Labs we don't just build new products, we also maintain legacy code bases and year over year push out new and improved versions. [Penn Course Review](https://penncoursereview.com) and the [Common Funding Application](https://penncfa.com) are two great examples.
 
-In line with this, we want you to take your submission from when you last applied, clean up your code, and take it to the next level with new features and data. Be deliberate with your implementation decisions, architecture, and documentation such that if someone else opens your code 6 months from now they'll be able to pick up right where you left off. We're excited to see what you come up with.
+That said, please note the differences between the current challenge and previous challenge, as we constantly update our challenge between semesters in accordance with the submissions we review and applicants' feedback. In line with this, we want you to take your submission from when you last applied, update your code, and take it to the next level with new features and data. Be deliberate with your implementation decisions, architecture, and documentation such that if someone else opens your code 6 months from now they'll be able to pick up right where you left off. We're excited to see what you come up with.
 
 ---
 

@@ -1,3 +1,5 @@
+# This challenge has been archived! Please check [the updated challenge for Fall 2022 here](https://github.com/pennlabs/frontend-challenge-f22)
+
 # Penn Labs Frontend Challenge
 
 > If you have already done this challenge, there's a [section below](#repeat-applicants) specifically for you.
